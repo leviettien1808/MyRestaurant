@@ -1,0 +1,22 @@
+/* 
+    Author: Le Viet Tien
+    Date: 22/05/2020
+    Description: Initial external css file to easy manage.
+ */
+ * {
+    margin: 0;
+    padding: 0;
+}
+footer {
+    background-color: #EEEEEE;
+}
+.fb {
+    background-color: white;
+    color: #2B78E4;
+    font-size: 48px;
+}
+.go {
+    background-color: white;
+    color: #CF2A27;
+    font-size: 48px;
+}
