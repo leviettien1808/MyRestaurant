@@ -31,33 +31,57 @@
 <body>
     <div class="container mt-3 sticky-top">
         <div class="row">
-            <nav class="navbar navbar-expand-lg w-100 bg-secondary">
-                <a class="navbar-brand text-dark" href="#"><img src="https://via.placeholder.com/213x42.png?text=Logo"
-                        alt="Logo"></a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse"
-                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mr-auto">
+            <nav class="navbar navbar-expand-lg w-100 bg-danger d-none d-lg-block"><div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+                    <ul class="navbar-nav my-font">
                         <li class="nav-item">
-                            <a class="nav-link text-dark" href="index.html">HOME <span
+                            <a class="nav-link text-warning" href="index.html">TRANG CHỦ<span
                                     class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" href="menu.html">MENU</a>
+                            <a class="nav-link text-warning" href="menu.html">THỰC ĐƠN</a>
+                        </li>
+                        <li>
+                            <a class="navbar-brand text-dark" href="#"><img
+                                src="https://via.placeholder.com/213x42.png?text=Logo" alt="Logo"></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" href="gallery.html">GALLERY</a>
+                            <a class="nav-link text-warning" href="gallery.html">BỘ SƯU TẬP</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" href="#">CONTACTS</a>
+                            <a class="nav-link text-warning" href="contact.html">LIÊN HỆ</a>
                         </li>
                     </ul>
                 </div>
             </nav>
+            <!-- Mode mobile -->
+            <div class="pos-f-t w-100 d-md-none">
+                <div class="text-center">
+                    <img src="https://via.placeholder.com/213x42.png/DC3545/FFC107?text=Logo" alt="Logo">
+                </div>
+                <nav class="navbar navbar-light d-flex flex-row-reverse">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#dropdownMenuOnMobile" aria-controls="dropdownMenuOnMobile" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </nav>
+                <div class="collapse" id="dropdownMenuOnMobile">
+                    <div class="bg-light p-4 w-75 m-auto">
+                        <a class="nav-link" href="index.html">
+                            <h4 class="text-dark">TRANG CHỦ</h4>
+                        </a>
+                        <a class="nav-link" href="menu.html">
+                            <h4 class="text-dark">THỰC ĐƠN</h4>
+                        </a>
+                        <a class="nav-link" href="gallery.html">
+                            <h4 class="text-dark">BỘ SƯU TẬP</h4>
+                        </a>
+                        <a class="nav-link" href="contact.html">
+                            <h4 class="text-dark">LIÊN HỆ</h4>
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     <div class="container-fluid mt-4">
@@ -67,24 +91,32 @@
     </div>
     <div class="container-fluid mt-4">
         <div class="row">
-            <div class="col-md-6 bg-primary">
+            <div class="col-md-6">
                 <form class="mt-3">
                     <div class="form-group">
-                        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Fullname">
+                        <input type="text" class="form-control" id="fullname" placeholder="Fullname">
                     </div>
                     <div class="row form-group">
                         <div class="col-6">
-                            <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Email">
+                            <input type="text" class="form-control" id="email" placeholder="Email">
                         </div>
                         <div class="col-6">
-                            <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Phone number">
+                            <input type="text" class="form-control" id="phone" placeholder="Phone number">
                         </div>
                     </div>
+                    <div class="form-group">
+                        <textarea class="form-control" rows="5" id="comment"  placeholder="Enter message" style="resize: none;"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <button id="send" type="button" class="btn btn-primary float-right">Send</button>
+                    </div>
                 </form>
-
             </div>
-            <div class="col-md-6 bg-secondary">
-                2
+            <div class="col-md-6">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1042.1792909895003!2d108.21707377779694!3d16.0624541369167!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x314219cb0320302d%3A0x58f6146daa2dad1d!2zQsOhbmggY2FuaCBUxqE!5e0!3m2!1sen!2s!4v1591147069182!5m2!1sen!2s"
+                    width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                    tabindex="0"></iframe>
             </div>
         </div>
     </div>
