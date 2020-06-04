@@ -27,39 +27,58 @@
      -->
     <div class="container mt-3 sticky-top" id="myMenu">
         <div class="row">
-            <nav class="navbar navbar-expand-lg w-100 bg-secondary">
-                <a class="navbar-brand text-dark" href="#"><img src="https://via.placeholder.com/213x42.png?text=Logo" alt="Logo"></a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-              
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mr-auto">
+            <nav class="navbar navbar-expand-lg w-100 bg-danger d-none d-lg-block">
+                <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+                    <ul class="navbar-nav my-font">
                         <li class="nav-item">
-                            <a class="nav-link text-dark" href="index.html">HOME <span class="sr-only">(current)</span></a>
+                            <a class="nav-link text-warning" href="index.html">TRANG CHỦ<span
+                                    class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" href="menu.html">MENU</a>
+                            <a class="nav-link text-warning" href="menu.html">THỰC ĐƠN</a>
+                        </li>
+                        <li>
+                            <a class="navbar-brand text-dark" href="#"><img
+                                src="https://via.placeholder.com/213x42.png?text=Logo" alt="Logo"></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" href="gallery.html">GALLERY</a>
+                            <a class="nav-link text-warning" href="gallery.html">BỘ SƯU TẬP</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" href="#">CONTACTS</a>
+                            <a class="nav-link text-warning" href="contact.html">LIÊN HỆ</a>
                         </li>
                     </ul>
-                    <!-- 
-                        Author: Le Viet Tien
-                        Date: 25/05/2020
-                        Description: These parts include 'Search' and 'Shopping Cart' button will be update in the future.
-                     -->
-                    <!-- <form class="form-inline my-2 my-lg-0">
-                        /* <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search"> */
-                        <button class="btn btn-outline-dark my-2 my-sm-0 mx-1" type="submit"><i class="fas fa-search"></i></button>
-                        <button class="btn btn-outline-dark my-2 my-sm-0 mx-1" type="submit"><i class="fas fa-shopping-cart"></i></button>
-                    </form> -->
                 </div>
             </nav>
+            <!-- Mode mobile -->
+            <div class="pos-f-t w-100 d-md-none">
+                <div class="text-center">
+                    <img src="https://via.placeholder.com/213x42.png/DC3545/FFC107?text=Logo" alt="Logo">
+                </div>
+                <nav class="navbar navbar-light d-flex flex-row-reverse">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#dropdownMenuOnMobile" aria-controls="dropdownMenuOnMobile" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </nav>
+                <div class="collapse" id="dropdownMenuOnMobile">
+                    <div class="bg-light p-4 w-75 m-auto">
+                        <a class="nav-link" href="index.html">
+                            <h4 class="text-dark">TRANG CHỦ</h4>
+                        </a>
+                        <a class="nav-link" href="menu.html">
+                            <h4 class="text-dark">THỰC ĐƠN</h4>
+                        </a>
+                        <a class="nav-link" href="gallery.html">
+                            <h4 class="text-dark">BỘ SƯU TẬP</h4>
+                        </a>
+                        <a class="nav-link" href="contact.html">
+                            <h4 class="text-dark">LIÊN HỆ</h4>
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     <!-- 
@@ -70,7 +89,7 @@
     <div class="container-fluid image-title" id="myTitle">
         <div class="row justify-content-center">
             <div class="col">
-                <h1 class="text-center">Specialty Food</h1>
+                <h1 class="text-center">Viết Cái Câu Chi Hay Hay Ở Đây</h1>
                 <figure class="row justify-content-center">
                     <img src="https://via.placeholder.com/162x78.png?text=Logo" alt="Logo">
                 </figure>
@@ -82,7 +101,7 @@
     </div>
     <div class="container-fluid mt-4">
         <div class="row justify-content-center">
-            <div class="row mt-1">
+            <div class="row mt-1 text-center">
                 <div class="col-sm">
                     <figure>
                         <!-- 
@@ -90,70 +109,70 @@
                             Date: 01/06/2020
                             Description: Add cursor attribute and onclick method.
                          -->
-                        <img class="d-inline-block cursor" src="https://via.placeholder.com/380x300.png?text=Gallery+1" alt="Gallery 1" onclick="openModal();currentSlide(1)">
+                        <img class="d-inline-block cursor" src="imgs/galleries/gallery_1.JPG" alt="Gallery 1" onclick="openModal();currentSlide(1)">
                     </figure>
                 </div>
                 <div class="col-sm">
                     <figure>
-                        <img class="d-inline-block cursor" src="https://via.placeholder.com/380x300.png?text=Gallery+2" alt="Gallery 2" onclick="openModal();currentSlide(2)">
+                        <img class="d-inline-block cursor" src="imgs/galleries/gallery_2.JPG" alt="Gallery 2" onclick="openModal();currentSlide(2)">
                     </figure>
                 </div>
                 <div class="col-sm">
                     <figure>
-                        <img class="d-inline-block cursor" src="https://via.placeholder.com/380x300.png?text=Gallery+3" alt="Gallery 3" onclick="openModal();currentSlide(3)">
+                        <img class="d-inline-block cursor" src="imgs/galleries/gallery_3.JPG" alt="Gallery 3" onclick="openModal();currentSlide(3)">
                     </figure>
                 </div>
                 <div class="col-sm">
                     <figure>
-                        <img class="d-inline-block cursor" src="https://via.placeholder.com/380x300.png?text=Gallery+4" alt="Gallery 4" onclick="openModal();currentSlide(4)">
+                        <img class="d-inline-block cursor" src="imgs/galleries/gallery_4.JPG" alt="Gallery 4" onclick="openModal();currentSlide(4)">
                     </figure>
                 </div>
             </div>
-            <div class="row mt-1">
+            <div class="row mt-1 text-center">
                 <div class="col-sm">
                     <figure>
-                        <img class="d-inline-block cursor" src="https://via.placeholder.com/380x300.png?text=Gallery+5" alt="Gallery 5" onclick="openModal();currentSlide(5)">
+                        <img class="d-inline-block cursor" src="imgs/galleries/gallery_5.JPG" alt="Gallery 5" onclick="openModal();currentSlide(5)">
                     </figure>
                 </div>
                 <div class="col-sm">
                     <figure>
-                        <img class="d-inline-block cursor" src="https://via.placeholder.com/380x300.png?text=Gallery+6" alt="Gallery 6" onclick="openModal();currentSlide(6)">
+                        <img class="d-inline-block cursor" src="imgs/galleries/gallery_6.JPG" alt="Gallery 6" onclick="openModal();currentSlide(6)">
                     </figure>
                 </div>
                 <div class="col-sm">
                     <figure>
-                        <img class="d-inline-block cursor" src="https://via.placeholder.com/380x300.png?text=Gallery+7" alt="Gallery 7" onclick="openModal();currentSlide(7)">
+                        <img class="d-inline-block cursor" src="imgs/galleries/gallery_7.JPG" alt="Gallery 7" onclick="openModal();currentSlide(7)">
                     </figure>
                 </div>
                 <div class="col-sm">
                     <figure>
-                        <img class="d-inline-block cursor" src="https://via.placeholder.com/380x300.png?text=Gallery+8" alt="Gallery 8" onclick="openModal();currentSlide(8)">
-                    </figure>
-                </div>
-            </div>
-            <div class="row mt-1">
-                <div class="col-sm">
-                    <figure>
-                        <img class="d-inline-block cursor" src="https://via.placeholder.com/380x300.png?text=Gallery+9" alt="Gallery 9" onclick="openModal();currentSlide(9)">
-                    </figure>
-                </div>
-                <div class="col-sm">
-                    <figure>
-                        <img class="d-inline-block cursor" src="https://via.placeholder.com/380x300.png?text=Gallery+10" alt="Gallery 10" onclick="openModal();currentSlide(10)">
-                    </figure>
-                </div>
-                <div class="col-sm">
-                    <figure>
-                        <img class="d-inline-block cursor" src="https://via.placeholder.com/380x300.png?text=Gallery+11" alt="Gallery 11" onclick="openModal();currentSlide(11)">
-                    </figure>
-                </div>
-                <div class="col-sm">
-                    <figure>
-                        <img class="d-inline-block cursor" src="https://via.placeholder.com/380x300.png?text=Gallery+12" alt="Gallery 12" onclick="openModal();currentSlide(12)">
+                        <img class="d-inline-block cursor" src="imgs/galleries/gallery_8.JPG" alt="Gallery 8" onclick="openModal();currentSlide(8)">
                     </figure>
                 </div>
             </div>
-            <div class="row mt-1">
+            <div class="row mt-1 text-center">
+                <div class="col-sm">
+                    <figure>
+                        <img class="d-inline-block cursor" src="imgs/galleries/gallery_9.JPG" alt="Gallery 9" onclick="openModal();currentSlide(9)">
+                    </figure>
+                </div>
+                <div class="col-sm">
+                    <figure>
+                        <img class="d-inline-block cursor" src="imgs/galleries/gallery_10.JPG" alt="Gallery 10" onclick="openModal();currentSlide(10)">
+                    </figure>
+                </div>
+                <div class="col-sm">
+                    <figure>
+                        <img class="d-inline-block cursor" src="imgs/galleries/gallery_11.JPG" alt="Gallery 11" onclick="openModal();currentSlide(11)">
+                    </figure>
+                </div>
+                <div class="col-sm">
+                    <figure>
+                        <img class="d-inline-block cursor" src="imgs/galleries/gallery_12.JPG" alt="Gallery 12" onclick="openModal();currentSlide(12)">
+                    </figure>
+                </div>
+            </div>
+            <div class="row mt-1 text-center">
                 <div class="col-sm">
                     <figure>
                         <img class="d-inline-block cursor" src="https://via.placeholder.com/380x300.png?text=Gallery+13" alt="Gallery 13" onclick="openModal();currentSlide(13)">
