@@ -20,14 +20,11 @@
     <title>Quán Tơ | Bánh canh cá lóc</title>
 </head>
 <body>
-    <!-- 
-        Author: Le Viet Tien
-        Date: 01/06/2020
-        Description: Add id = 'myMenu' to solve javascript method.
-     -->
-    <div class="container mt-3 sticky-top" id="myMenu">
+    <!-- Navigator -->
+    <div class="container sticky-top" id="myMenu">
         <div class="row">
-            <nav class="navbar navbar-expand-lg w-100 bg-danger d-none d-lg-block">
+            <!-- Web Mode -->
+            <nav class="navbar navbar-expand-lg w-100 my-bg d-none d-md-block d-lg-block">
                 <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
                     <ul class="navbar-nav my-font">
                         <li class="nav-item">
@@ -50,7 +47,7 @@
                     </ul>
                 </div>
             </nav>
-            <!-- Mode mobile -->
+            <!-- Mobile Mode -->
             <div class="pos-f-t w-100 d-md-none">
                 <div class="text-center">
                     <img src="https://via.placeholder.com/213x42.png/DC3545/FFC107?text=Logo" alt="Logo">
@@ -175,22 +172,22 @@
             <div class="row mt-1 text-center">
                 <div class="col-sm">
                     <figure>
-                        <img class="d-inline-block cursor" src="https://via.placeholder.com/380x300.png?text=Gallery+13" alt="Gallery 13" onclick="openModal();currentSlide(13)">
+                        <img class="d-inline-block cursor" src="imgs/galleries/gallery_13.jpg" alt="Gallery 13" onclick="openModal();currentSlide(13)">
                     </figure>
                 </div>
                 <div class="col-sm">
                     <figure>
-                        <img class="d-inline-block cursor" src="https://via.placeholder.com/380x300.png?text=Gallery+14" alt="Gallery 14" onclick="openModal();currentSlide(14)">
+                        <img class="d-inline-block cursor" src="imgs/galleries/gallery_14.JPG" alt="Gallery 14" onclick="openModal();currentSlide(14)">
                     </figure>
                 </div>
                 <div class="col-sm">
                     <figure>
-                        <img class="d-inline-block cursor" src="https://via.placeholder.com/380x300.png?text=Gallery+15" alt="Gallery 15" onclick="openModal();currentSlide(15)">
+                        <img class="d-inline-block cursor" src="imgs/galleries/gallery_15.jpg" alt="Gallery 15" onclick="openModal();currentSlide(15)">
                     </figure>
                 </div>
                 <div class="col-sm">
                     <figure>
-                        <img class="d-inline-block cursor" src="https://via.placeholder.com/380x300.png?text=Gallery+16" alt="Gallery 16"  onclick="openModal();currentSlide(16)">
+                        <img class="d-inline-block cursor" src="imgs/galleries/gallery_16.jpg" alt="Gallery 16"  onclick="openModal();currentSlide(16)">
                     </figure>
                 </div>
             </div>
@@ -234,7 +231,7 @@
                         <img src="https://via.placeholder.com/1010x550.png?text=Gallery+10" alt="Product 10" style="width: 100%;">
                     </div>
                     <div class="mySlides">
-                        <img src="https://via.placeholder.com/1010x550.png?text=Gallery+11" alt="PRoduct 11" style="width: 100%;">
+                        <img src="imgs/galleries/gallery_11_wide.jpg" alt="Product 11" style="width: 100%;">
                     </div>
                     <div class="mySlides">
                         <img src="https://via.placeholder.com/1010x550.png?text=Gallery+12" alt="Product 12" style="width: 100%;">
@@ -258,6 +255,7 @@
             </div>
         </div>
     </div>
+    <!-- Footer -->
     <footer class="container-fluid mt-4">
         <!-- responsive equal width cols, can be sm, md, lg, or xl -->
         <div class="container">

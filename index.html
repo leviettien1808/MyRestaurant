@@ -29,34 +29,12 @@
 </head>
 
 <body>
-    <!-- 
-        Author: Le Viet Tien
-        Date: 25/05/2020
-        Description: This header will be update in the future.
-     -->
-    <!-- <header>
-        <div class="container-fluid bg-dark text-white ">
-            /* A fluid container that uses the full witdh */
-            <div class="container">
-                <div class="row">
-                /* col- elements here */
-                    <div class="col-sm my-3"><i class="fas fa-phone-alt"></i> 0383051459 &#124; <i class="far fa-envelope"></i> leviettien1808@gmail.com</div>
-                    <div class="col-sm my-2">
-                        <button type="button" class="btn btn-light float-right mx-1">Sign up</button>
-                        <button type="button" class="btn btn-light float-right mx-1">Sign in</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header> -->
-    <!-- 
-        Author: Le Viet Tien
-        Date: 22/05/2020
-        Description: Add 'sticky-top' class.
-     -->
-    <div class="container mt-3 sticky-top">
+    <!-- Navigator -->
+     <div class="container sticky-top">
         <div class="row">
-            <nav class="navbar navbar-expand-lg w-100 bg-danger d-none d-lg-block"><div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+            <!-- Web Mode -->
+            <nav class="navbar navbar-expand-lg w-100 my-bg d-none d-md-block d-lg-block">
+                <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
                     <ul class="navbar-nav my-font">
                         <li class="nav-item">
                             <a class="nav-link text-warning" href="index.html">TRANG CHỦ<span
@@ -78,7 +56,7 @@
                     </ul>
                 </div>
             </nav>
-            <!-- Mode mobile -->
+            <!-- Mobile Mode -->
             <div class="pos-f-t w-100 d-md-none">
                 <div class="text-center">
                     <img src="https://via.placeholder.com/213x42.png/DC3545/FFC107?text=Logo" alt="Logo">
@@ -109,9 +87,10 @@
             </div>
         </div>
     </div>
+    <!-- Slide -->
     <div class="container mt-3">
         <div class="row">
-            <div class="bd-example w-100">
+            <div class="bd-example w-100 col-sm">
                 <div id="slide" class="carousel slide" data-ride="carousel">
                     <ol class="carousel-indicators">
                         <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
@@ -174,12 +153,13 @@
             </div>
         </div>
     </div>
+    <!-- Main dishes -->
     <div class="container mt-4">
         <div class="row">
             <div class="col-sm">
                 <h2>Món Chính</h2>
             </div>
-            <div class="col-sm text-right my-2"><a href="menu.html">See All</a></div>
+            <div class="col-sm text-right my-2 d-none d-md-block d-lg-block"><a href="menu.html">See All</a></div>
         </div>
         <div class="row">
             <!-- 
@@ -214,12 +194,13 @@
             </div>
         </div>
     </div>
+    <!-- Side dishes -->
     <div class="container mt-4">
         <div class="row">
             <div class="col-sm">
                 <h2>Món Phụ</h2>
             </div>
-            <div class="col-sm text-right my-2"><a href="menu.html">See All</a></div>
+            <div class="col-sm text-right my-2 d-none d-md-block d-lg-block"><a href="menu.html">See All</a></div>
         </div>
         <div class="row">
             <!-- 
@@ -254,12 +235,13 @@
             </div>
         </div>
     </div>
+    <!-- Drinks -->
     <div class="container mt-4">
         <div class="row">
             <div class="col-sm">
                 <h2>Giải Khát</h2>
             </div>
-            <div class="col-sm text-right my-2"><a href="menu.html">See All</a></div>
+            <div class="col-sm text-right my-2 d-none d-md-block d-lg-block"><a href="menu.html">See All</a></div>
         </div>
         <div class="row">
             <!-- 
@@ -279,11 +261,11 @@
                     <div class="carousel-item">
                         <img class="d-inline-block m-auto col-sm-6" src="imgs/drinks/aquafina.jpg"
                             alt="Aquafina">
-                        <img class="d-inline-block m-auto col-sm-6" src="imgs/drinks/nuoc_khoang_danh_thanh.jpg"
+                        <img class="d-inline-block m-auto col-sm-6" src="imgs/drinks/khoang_lat.jpg"
                             alt="Nước khoáng Đảnh Thạnh" />
                     </div>
                     <div class="carousel-item">
-                        <img class="d-inline-block mr-2" src="https://via.placeholder.com/560x400.png?text=Drink+5"
+                        <img class="d-inline-block m-auto col-sm-6" src="https://via.placeholder.com/560x400.png?text=Drink+5"
                             alt="Drink 5">
                     </div>
                 </div>
@@ -298,6 +280,7 @@
             </div>
         </div>
     </div>
+    <!-- Footer -->
     <footer class="container-fluid mt-4">
         <!-- responsive equal width cols, can be sm, md, lg, or xl -->
         <div class="container">

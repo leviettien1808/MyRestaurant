@@ -30,6 +30,16 @@ footer {
 }
 /* End General */
 
+
+
+/* Navigator */
+.my-bg {
+    background-color: #95282b;
+}
+/* End Navigator */
+
+
+
 /* Index Page */
 .my-font {
     font-family: 'Bahnschrift';
@@ -51,6 +61,10 @@ footer {
 /* End Index Page */
 
 /* Gallery Page */
+.image-title {
+    background-image: image("imgs/background/card.jpg");
+}
+
 /* The Modal (background) */
 .modal {
     display: none;
