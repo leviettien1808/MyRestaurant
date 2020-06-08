@@ -62,7 +62,10 @@ footer {
 
 /* Gallery Page */
 .image-title {
-    background-image: image("imgs/background/card.jpg");
+    background-image: url("../imgs/background/bang_hieu.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 800px;
 }
 
 /* The Modal (background) */

@@ -2,7 +2,7 @@
 function openModal() {
     document.getElementById("myModal").style.display = "block";
     document.getElementById("myMenu").style.display = "none";
-    document.getElementById("my-title").style.display = "none";
+    document.getElementById("myTitle").style.display = "none";
 }
 // Close the Modal
 function closeModal() {
