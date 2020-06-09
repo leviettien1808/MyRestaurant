@@ -61,12 +61,11 @@ footer {
 /* End Index Page */
 
 /* Gallery Page */
-.image-title {
+/* .image-title {
     background-image: url("../imgs/background/bang_hieu.jpg");
-    background-size: cover;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
-    height: 800px;
-}
+} */
 
 /* The Modal (background) */
 .modal {
